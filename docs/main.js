@@ -1,4 +1,5 @@
 // @author = "Harish"
+alert("Author of this project : Harish");
 
 const greet = document.getElementById("g");
 
