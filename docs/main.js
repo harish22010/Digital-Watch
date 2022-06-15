@@ -29,7 +29,7 @@ const getDate = () => {
 
 }
 
-const getExactDa = () => {
+const getExactDay = () => {
 
   const date = new Date();
 
@@ -88,6 +88,8 @@ const getExactDa = () => {
 setInterval(() => {
 
   let date = new Date();
+  
+  time.innerHTML = `Day: ${getExactDay}, Date: ${getDate}`;
 
   let hr = date.getHours();
 
