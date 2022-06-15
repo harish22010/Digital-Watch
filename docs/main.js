@@ -1,5 +1,5 @@
 // @author = "Harish"
-alert("Author of this project : Harish");
+
 
 const greet = document.getElementById("g");
 
@@ -89,7 +89,7 @@ setInterval(() => {
 
   let date = new Date();
   
-  time.innerHTML = `Day: ${getExactDay}, Date: ${getDate}`;
+  day.innerHTML = `Day: ${getExactDay}, Date: ${getDate}`;
 
   let hr = date.getHours();
 
