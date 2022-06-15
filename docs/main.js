@@ -11,7 +11,7 @@ const second = document.getElementById("second");
 
 const time = document.getElementById("t");
 
-const day = document.getElementById("d");
+//const day = document.getElementById("d");
 
 const getDate = () => {
 
@@ -89,7 +89,7 @@ setInterval(() => {
 
   let date = new Date();
   
-  day.innerHTML = `Day: ${getExactDay()}, Date: ${getDate()}`;
+  //day.innerHTML = `Day: ${getExactDay()}, Date: ${getDate()}`;
 
   let hr = date.getHours();
 
