@@ -89,7 +89,7 @@ setInterval(() => {
 
   let date = new Date();
   
-  day.innerHTML = `Day: ${getExactDay}, Date: ${getDate}`;
+  day.innerHTML = `Day: ${getExactDay()}, Date: ${getDate()}`;
 
   let hr = date.getHours();
 
