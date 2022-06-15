@@ -1,0 +1,160 @@
+/*
+
+@author = Harish
+
+*/
+
+body {
+
+    background: #272727;
+
+}
+
+#main {
+
+  border: 0px solid white;
+
+  margin: auto;
+
+  width: 50vh;
+
+  margin-top: 20vh;
+
+  height: 50vh;
+
+}
+
+#clock {
+
+  border: 1vh solid #252525;
+
+  width: 46vh;
+
+  margin: auto;
+
+  height: 12.5vh;
+
+  margin-top: 15vh;
+
+  box-shadow: -0.3vh -0.3vh 0.9vh 0.3vh #1F1F1F, 0.3vh 0.3vh 0.9vh 0.9vh #1F1F1F;
+
+  border-radius: 2vh;
+
+}
+
+button {
+
+  background: #272727;
+
+  border: 0.5vh solid #282828;
+
+  color: whitesmoke;
+
+  box-shadow: 0.1vh 0.1vh 0.9vh 0.5vh #2D2D2D,-0.1vh -0.1vh 0.9vh 0.4vh #2C2C2C,0.1vh 0.1vh 0.9vh 0.4vh #1A1A1A inset,-0.1vh -0.1vh 0.9vh 0.4vh #2D2D2D inset;
+
+  height: 11vh;
+
+  border-radius: 1vh;
+
+  width: 11vh;
+
+  margin: auto;
+
+  margin-left: 1vh;
+
+  font-size: 4vh;
+
+  color: #44EAEB;
+
+  font-weight: bold;
+
+  font-family: fantasy;
+
+}
+
+#d1,#d2 {
+
+  width: 2vh;
+
+  border: none;
+
+  margin-right: 0.2vh;
+
+  margin-top: 0.3vh;
+
+  box-shadow: none;
+
+  font-size: 5vh;
+
+  font-weight: bold;
+
+  font-family: fantasy;
+
+  color: #5E8BC2;
+
+}
+
+#am {
+
+  border: 0.5vh solid #282828;
+
+  width: 15vh;
+
+  height: 7vh;
+
+  margin: auto;
+
+  margin-top: 3vh;
+
+  text-transform: uppercase;
+
+  border-radius: 7vh/5vh;
+
+  box-shadow: -0.3vh -0.3vh 0.9vh 0.3vh #1F1F1F, 0.3vh 0.3vh 0.9vh 0.9vh #1F1F1F;
+
+}
+
+#t {
+
+  margin-top: 0.9vh;
+
+  font-size: 4vh;
+
+  font-family: fantasy;
+
+  color: #44EAEB;
+
+  font-weight: bold;
+
+  margin-left: 4vh;
+
+}
+
+#greet,#day {
+
+  width: 50vh;
+
+  margin: auto;
+
+  color: floralwhite;
+
+  font-size: 2vh;
+
+  font-weight: bold;
+
+  font-style: italic;
+
+  text-align: left top;
+
+}
+
+#g,#d{
+
+  margin-top: 2vh;
+
+  font-family: fantasy;
+
+  margin-left: 2vh;
+
+}
+
