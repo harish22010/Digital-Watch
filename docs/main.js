@@ -113,23 +113,8 @@ setInterval(() => {
 
   
 
-  if ((amorpm == "AM") && (hr <= 12)) {
-
-    greet.innerHTML = "Good Morning 🌄 !";
-
-  } else if ((amorpm == "PM") && (hr <= 12) && (hr < 4)) {
-
-    greet.innerHTML = "Good Afternoon 🌞 !";
-
-  } else if ((amorpm == "PM") && (hr >= 4) && (hr < 9)) {
-
-    greet.innerHTML = "Good Evening 🌅 !";
-
-  } else if ((amorpm == "PM") && (hr > 9)) {
-
-    greet.innerHTML = "Good Night 🌃 ! and have a sweet dream "
-
-  }
+  
+  
 
 },1000)
 // hello
